@@ -40,7 +40,7 @@ https://line.me/R/ti/p/%40ejn1954w <br>
 資料庫 或 其他相依需求
 ===
 * 本範例沒有使用資料庫
-* 本範例使用到了MS Cognitivi Services進行線上即時翻譯，請申請MS translator API並在Web.Config中填入Key
+* 本範例使用到了MS Cognitive Services進行線上即時翻譯，請申請MS translator API並在Web.Config中填入Key
 ```xml
   <appSettings>
     <!--請換成你自己的key-->
