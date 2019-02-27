@@ -1,4 +1,4 @@
-Linebot-Demo-TranslatorKing
+Linebot-Demo-TranslatorKing (翻譯王 Bot)
 ===
 此Line bot範例為使用 LineBotSDK 建立的 『多國語言即時翻譯 Bot 』<br><br>
 用戶可以跟 bot 說 任何文字，它會翻譯成你需要的語言。 <br>
