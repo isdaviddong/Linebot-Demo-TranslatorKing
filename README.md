@@ -55,12 +55,9 @@ https://line.me/R/ti/p/%40ejn1954w <br>
 
 相關資源 
 ===
-LineBotSDK線上教學課程: <br/>
-https://www.udemy.com/line-bot <br/>
-<br/>
-書籍購買位置(包含範例完整說明): <br/>
-https://www.tenlong.com.tw/products/9789865020354 <br/>
-<br/>
-電子書購買位置(包含範例完整說明): <br/>
-https://www.pubu.com.tw/ebook/103305 <br/>
+<br/>LineBotSDK：https://www.nuget.org/packages/LineBotSDK
+<br/>相關課程：http://www.studyhost.tw/NewCourses/LineBot
+<br/>線上課程：https://www.udemy.com/line-bot/
+<br/>更多內容，請參考電子書：https://www.pubu.com.tw/ebook/103305
+<br/>LINE Bot實體書籍：https://www.tenlong.com.tw/products/9789865020354
 
