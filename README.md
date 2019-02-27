@@ -23,7 +23,7 @@ https://line.me/R/ti/p/%40ejn1954w <br>
     <add key="ChannelAccessToken" value="請改成你自己的channel access token"/>
   </appSettings>
 ```
-* 為了便於除錯，請修改 LineWebHookSampleController.cs 中的 Admin User Id
+* 若為了便於除錯，可修改 LineWebHookSampleController.cs 中的 Admin User Id，將發生Exception時候的錯誤轉給自己
 ```csharp
    catch (Exception ex)
             {
@@ -37,10 +37,17 @@ https://line.me/R/ti/p/%40ejn1954w <br>
 (可參考 https://youtu.be/kCga1_E-ijs ) 
 * LINE Bot後台的WebHook設定，其位置為 Http://你的domain/api/TranslatorKing
 
-資料庫
+資料庫 或 其他相依需求
 ===
 * 本範例沒有使用資料庫
- 
+* 本範例使用到了MS Cognitivi Services進行線上即時翻譯，請申請MS translator API並在Web.Config中填入Key
+```xml
+  <appSettings>
+    <!--請換成你自己的key-->
+    <add key="MSTranslatorTextKey" value=""/>
+  </appSettings>
+```
+
 注意事項
 ===
 由於這只是一個範例，我們盡可能用最簡單的方式來開發。 <br/>
